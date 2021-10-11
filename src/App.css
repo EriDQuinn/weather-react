@@ -1,33 +1,62 @@
 .App {
+  font-family: sans-serif;
+  text-align: center;
+  height: 100%;
+}
+.SearchWeather {
+  height: 100%;
+}
+form {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1,
+h3 {
+  color: rgb(6, 19, 56);
+  text-transform: capitalize;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h4,
+h5,
+h6 {
+  text-align: left;
 }
-
+p {
+  font-size: 15px;
+  color: black;
+  margin: 1.5em;
+}
+.icon {
+  text-align: center;
+  background-color: rgba(96, 108, 131, 0.521);
+  border-radius: 60%;
+  padding: 1em;
+}
+.iconF {
+  text-align: center;
+}
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(6, 19, 56);
+}
+.Forecast {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #bfd8df;
 }
-
+.row {
+  display: flex;
+}
+.col {
+  margin: 1em;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
