@@ -12,7 +12,13 @@ function App() {
       <Forecast></Forecast>
 
       <p>
-        <a href="">Open-source code,</a>by <a href="">Erika D.</a>{" "}
+        <a href="https://github.com/EriDQuinn/weather-react">
+          Open-source code,
+        </a>
+        by{" "}
+        <a href="https://www.linkedin.com/in/erika-diaz-0b9857195/">
+          Erika Díaz A.
+        </a>{" "}
       </p>
     </div>
   );
