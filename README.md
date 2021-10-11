@@ -1,9 +1,9 @@
-**#This is my first React App**
+#This is my first React App
 
 It is a Weather app where you can search for the weather of an specific city arround the world
 
 _________________________________________________________________________________________________________
-# Getting Started with Create React App
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
